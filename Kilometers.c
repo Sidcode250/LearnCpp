@@ -1,7 +1,10 @@
 #include <stdio.h>
 int main(void)
 {
-    int miles = 26, yards = 385;
+    double miles=0.0;
+    printf("enter miles");
+    scanf("%lf",&miles);
+    int yards = 385;
     double kilometers;
 
     kilometers = 1.609 * ( miles + yards / 1760.0);
