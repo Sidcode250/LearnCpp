@@ -12,7 +12,7 @@ int main(){
     char player_1 = userChoice();
     char player_2 = computerChoice();
     computerChoice();
-    showChoice(player_1, player_1);
+    showChoice(player_1, player_2);
     chooseWinner(player_1, player_2);
     return 0;
 }
@@ -37,6 +37,7 @@ char computerChoice()
         case 1: return 'r';
         case 2: return 'p';
         case 3: return 's';
+        default: return 'r';
     }
 }
 
